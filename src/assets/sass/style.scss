@@ -3,7 +3,7 @@
 @import "config/colors";
 
 @import "utilities/spacing";
-
+@import "utilities/mixin-card";
 
 @import "base/fonts";
 @import "base/global";
@@ -11,11 +11,22 @@
 @import "base/typography";
 
 
+@import "components/components";
+@import "components/demo";
+@import "components/textfield";
+@import "components/card";
+@import "components/button";
+@import "components/banner";
+
+
+
+
 
 
 
 
 $background-color:silver;
+
 body{
     background-color: $background-color;
 
