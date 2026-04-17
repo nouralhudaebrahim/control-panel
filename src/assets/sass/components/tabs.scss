@@ -1,0 +1,48 @@
+.c-tabs{
+    @include e-card;
+        width: 100%;
+        position: relative;
+    
+}
+.c-tabs__control{
+    display: flex;
+    overflow: auto;
+    &::before{
+        content: "";
+        width: 100%;
+        height: floor($number: 0) ($line-height*$font-base) + (spacing() *2) ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(90deg , block 20px , transparent 30px);
+    }
+}
+.c-tabs_tab{
+    text-align: center;
+    padding: spacing() spacing("small");
+    flex-grow: 1;
+    border-bottom: 3px solid transparent ;
+    word-spacing: pre;
+}
+.c-tabs_tab.is-active{
+    border-color: $color-primary;
+}
+.c-tabs_tabarea{
+    display: none;
+}
+.c-tabs_tabarea.is-active{
+    display: block;
+}
+
+
+
+//responsiv
+
+@media (max-width: 500px) {
+    .c-tabs_tab{
+        font-size: 12px;
+        padding: 10px;
+
+    }
+    
+}

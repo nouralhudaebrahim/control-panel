@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الطلبات</title>
+</head>
+<body>
+    <div class="page-container">
+         <div class="c-sidebar">
+
+            <div class="c-sideba__control">
+                <a href="../index.html" class="c-sidebar__icon c-sidebar__logo c-sidebar__icon--large">
+                    <svg viewbox="0 0 35 35">
+                        <circle cx="17.5" cy="17.5" r="12" fill="transparent" stroke-width="10"></circle>
+                    </svg>
+                </a>
+
+
+                <a href="add-prudact.html" class="c-sidebar__icon"> <i class="c-icon c-icon--plus"></i> </a>
+                <a href="#search" class="c-sidebar__icon"><i class="c-icon c-icon--search"></i></a>
+                <a href="#logout" class="c-sidebar__icon"><i class="c-icon c-icon--switch"></i></a>
+                <a href="#profil" class="c-sidebar__icon c-sidebar__icon--bottom c-sidebar__icon--large c-sidebar__icon--image ">
+                    <img src="../src/assets/images/profile.png" alt="">
+                </a>
+            </div>
+            <div class="c-sideba__menu">
+                <h2 class="c-sideba__title"><a href="index.html">عربي</a></h2>
+                <nav class="c-sideba__navigation">
+                    <a href="" class="c-sideba__link">نظرة عامة <i class="c-icon c-icon--equalizer"></i></a>
+                    <a href="" class="c-sideba__link">المنتجات<i class="c-icon c-icon--cart"></i></a>
+                    <a href="" class="c-sideba__link">المستخدمين <i class="c-icon c-icon--users"></i></a>
+                    <a href="" class="c-sideba__link">الطلبات<i class="c-icon c-icon--file-text"></i></a>
+                </nav>
+            </div>
+
+
+        </div>
+         <div class="single-page">
+            <header class="page-header">
+                <h1 class="page-title"> الطلبات</h1>
+            </header>
+
+ <div class="c-table">
+            <header class="c-table__header">
+                <h3 class="c-table__title">المنتجات</h3>
+                <div class="c-table__actions"> 
+                    <button class="c-btn c-btn--primary c-btn--slim">تم الشحن</button> 
+                    <button class="c-btn  c-btn--slim">تتم المعالجة</button>
+                    <button class="c-btn c-btn--destructive c-btn--slim">حذف</button>
+                </div>
+                <div class="c-table__navigation">
+                    <span class="c-table__navigation__caption">6 من اصل 24</span>
+                    <div class="c-table__navigation__arrows">
+                        <button class="c-btn c-btn--icon"><i class="c-icon c-icon--arrow-right2"></i></button>
+                        <button class="c-btn c-btn--icon"><i class="c-icon c-icon--arrow-left2"></i></button>
+                    </div>
+                </div>
+            </header>
+
+            <table class="c-table__data">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" id="sellect-all">
+                        </th>
+                        <th>
+                            <label for="sellect-all">تحديد الكل</label>
+                        </th>
+                        <th>اسم المنتج</th>
+                        <th>  المشتري</th>
+                        <th> بلد الشحن</th>
+                        <th>القيمة </th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr class="c-list c-list--table-row">
+                    <th>
+                            <input type="checkbox" id="sellect-all">
+                        </th>
+                      <td>
+                         <img src="/assets/images/black-shirt.jpg" alt="" class="c-list__media">
+                      </td>
+                      <td class="c-list__data"> قميص اسود m</td>
+                      <td class="c-list__data">علي جابر</td>
+                      <td class="c-list__data">اللاذقية-سوريا</td>
+                      <td class="c-list__data">20$</td>
+                      <td class="c-list__action">
+                        <a href="" class="c-btn c-btn--primary c-btn--smal">تم الشحن</a>
+                        <a href="" class="c-btn c-btn--smal">تواصل</a>
+                        <a href="" class="c-btn c-btn--destructive c-btn--smal">بدء الطلب</a>
+                      </td>
+                   </tr>
+
+                    <tr class="c-list c-list--table-row">
+                        <th>
+                            <input type="checkbox" id="sellect-all">
+                        </th>
+                      <td>
+                         <img src="../src/assets/images/brown-shoe.jpg" alt="" class="c-list__media">
+                      </td>
+                      <td class="c-list__data">  حذاء جلد </td>
+                      <td class="c-list__data"> خالد سمرا</td>
+                      <td class="c-list__data">حماة-سوريا</td>
+                      <td class="c-list__data">31$</td>
+                      <td class="c-list__action">
+                        <a href="" class="c-btn c-btn--primary c-btn--smal">تم الشحن</a>
+                        <a href="" class="c-btn c-btn--smal">تواصل</a>
+                        <a href="" class="c-btn c-btn--destructive c-btn--smal">بدء الطلب</a>
+                      </td>
+                   </tr>
+                   <tr class="c-list c-list--table-row">
+                        <th>
+                            <input type="checkbox" id="sellect-all">
+                        </th>
+                      <td>
+                         <img src="../src/assets/images/running-shoe.jpg" alt="" class="c-list__media">
+                      </td>
+                      <td class="c-list__data">   حذاء رياضي</td>
+                      <td class="c-list__data"> سامر رجب</td>
+                      <td class="c-list__data">حلب-سوريا</td>
+                      <td class="c-list__data">13$</td>
+                      <td class="c-list__action">
+                        <a href="" class="c-btn c-btn--primary c-btn--smal">تم الشحن</a>
+                        <a href="" class="c-btn c-btn--smal">تواصل</a>
+                        <a href="" class="c-btn c-btn--destructive c-btn--smal">بدء الطلب</a>
+                      </td>
+                   </tr>
+                   <tr class="c-list c-list--table-row">
+                        <th>
+                            <input type="checkbox" id="sellect-all">
+                        </th>
+                      <td>
+                         <img src="../src/assets/images/dw-watch.jpg" alt="" class="c-list__media">
+                      </td>
+                      <td class="c-list__data">   ساعة</td>
+                      <td class="c-list__data"> محمد اسماعيل</td>
+                      <td class="c-list__data">دمشق-سوريا</td>
+                      <td class="c-list__data">60$</td>
+                      <td class="c-list__action">
+                        <a href="" class="c-btn c-btn--primary c-btn--smal">تم الشحن</a>
+                        <a href="" class="c-btn c-btn--smal">تواصل</a>
+                        <a href="" class="c-btn c-btn--destructive c-btn--smal">بدء الطلب</a>
+                      </td>
+                   </tr>
+                </tbody>
+            </table>
+
+
+
+
+            <footer class="c-table__footer">
+                <div class="c-table__navigation">
+                    <span class="c-table__navigation__caption">6 من اصل 24</span>
+                    <div class="c-table__navigation__arrows">
+                        <button class="c-btn c-btn--icon"><i class="c-icon c-icon--arrow-right2"></i></button>
+                        <button class="c-btn c-btn--icon"><i class="c-icon c-icon--arrow-left2"></i></button>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+
+             <div class="c-help">
+
+            <div class="c-help__icon c-icon c-icon--lifebuoy"></div>   
+
+            <div>
+                <span class="c-help-title">تعلم المزيد حول  </span>
+                <a href="../index.html" class="c-help-link">المنتجات</a>
+            </div>
+             </div>
+         </div>
+    </div>
+    
+</body>
+</html>
